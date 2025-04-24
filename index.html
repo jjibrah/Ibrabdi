@@ -1309,6 +1309,66 @@
             font-size: 1.5rem;
             color: var(--text-color);
         }
+
+        /* Video Placeholder Styles */
+        .video-placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--card-bg);
+            z-index: 1;
+        }
+
+        .blur-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), rgba(249, 115, 22, 0.1));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .coming-soon-text {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .coming-soon-text h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--gradient-warm);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pulse 2s infinite;
+        }
+
+        .coming-soon-text p {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
     </style>
 </head>
 <body>
@@ -1637,7 +1697,14 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal()">&times;</button>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/ocMOZpuAMw4" 
+                <div class="video-placeholder">
+                    <div class="blur-overlay"></div>
+                    <div class="coming-soon-text">
+                        <h2>TO BE PUBLISHED SOON</h2>
+                        <p>Stay tuned for my story!</p>
+                    </div>
+                </div>
+                <iframe src="#" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
@@ -1669,14 +1736,26 @@
         // Modal Functions
         function openModal() {
             const modal = document.getElementById('videoModal');
+            const iframe = modal.querySelector('iframe');
+            const placeholder = modal.querySelector('.video-placeholder');
+            
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
+            
+            // Always show placeholder since we don't have a video yet
+            placeholder.style.display = 'flex';
+            iframe.style.display = 'none';
         }
 
         function closeModal() {
             const modal = document.getElementById('videoModal');
+            const placeholder = modal.querySelector('.video-placeholder');
+            const iframe = modal.querySelector('iframe');
+            
             modal.style.display = 'none';
             document.body.style.overflow = 'auto';
+            placeholder.style.display = 'flex';
+            iframe.style.display = 'none';
         }
 
         // Close modal when clicking outside
