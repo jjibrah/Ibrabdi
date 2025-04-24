@@ -1,0 +1,30 @@
+version: "1.0.0"
+date: "2024-04-24"
+changes:
+  - type: "feature"
+    description: "Added video modal with placeholder"
+    details:
+      - "Implemented 'TO BE PUBLISHED SOON' placeholder for video section"
+      - "Added blurred background effect"
+      - "Included pulsing animation for placeholder text"
+  
+  - type: "fix"
+    description: "Fixed modal display issues"
+    details:
+      - "Resolved placeholder visibility issues"
+      - "Improved modal state management"
+      - "Enhanced user experience for video section"
+
+  - type: "style"
+    description: "UI/UX improvements"
+    details:
+      - "Added gradient text effects"
+      - "Implemented responsive design for modal"
+      - "Enhanced visual feedback for interactive elements"
+
+  - type: "test"
+    description: "Local testing setup"
+    details:
+      - "Added local development server configuration"
+      - "Implemented testing environment"
+      - "Verified responsive design across devices" 
