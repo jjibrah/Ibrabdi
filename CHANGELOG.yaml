@@ -1,4 +1,4 @@
-version: "1.0.5"
+version: "1.0.6"
 date: "2024-12-19"
 changes:
   - type: "feature"
@@ -69,4 +69,31 @@ changes:
       - "Added proper Git configuration files"
       - "Implemented automated deployment workflow"
       - "Enhanced project organization for GitHub hosting"
-      - "Prepared for seamless GitHub Pages integration" 
+      - "Prepared for seamless GitHub Pages integration"
+      
+  - type: "feature"
+    description: "Added freelancing services section"
+    details:
+      - "Created comprehensive pricing tiers (Starter, Standard, Premium)"
+      - "Added service packages with detailed features and pricing"
+      - "Included additional services (Mobile App, AI/ML, Maintenance, SEO)"
+      - "Implemented responsive service cards with hover effects"
+      - "Added call-to-action buttons for each service tier"
+      
+  - type: "feature"
+    description: "Added startup partnership section"
+    details:
+      - "Created partnership opportunities showcase"
+      - "Added technical co-founder role description"
+      - "Included product development and growth services"
+      - "Added areas of interest tags (E-commerce, Fintech, Healthcare, etc.)"
+      - "Implemented partnership call-to-action with contact options"
+      
+  - type: "ui/ux"
+    description: "Enhanced navigation and user experience"
+    details:
+      - "Updated main navigation to include Services and Partnership sections"
+      - "Added footer navigation links for new sections"
+      - "Implemented modern card-based design for services"
+      - "Added gradient backgrounds and hover animations"
+      - "Enhanced mobile responsiveness for new sections" 
