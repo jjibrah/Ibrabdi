@@ -1,5 +1,5 @@
-version: "1.0.4"
-date: "2024-04-24"
+version: "1.0.5"
+date: "2024-12-19"
 changes:
   - type: "feature"
     description: "Added video modal with placeholder"
@@ -52,4 +52,21 @@ changes:
       - "Integrated Google Analytics tracking code"
       - "Set up user behavior tracking"
       - "Enabled performance monitoring"
-      - "Added website traffic analytics capabilities" 
+      - "Added website traffic analytics capabilities"
+      
+  - type: "deployment"
+    description: "GitHub Pages deployment setup"
+    details:
+      - "Created GitHub Actions workflow for automatic deployment"
+      - "Added .gitignore file for proper version control"
+      - "Configured deployment to GitHub Pages"
+      - "Set up continuous deployment pipeline"
+      - "Enabled automatic updates on push to main branch"
+      
+  - type: "infrastructure"
+    description: "Repository structure improvements"
+    details:
+      - "Added proper Git configuration files"
+      - "Implemented automated deployment workflow"
+      - "Enhanced project organization for GitHub hosting"
+      - "Prepared for seamless GitHub Pages integration" 
