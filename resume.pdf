@@ -1,0 +1,186 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 24 Tf
+100 750 Td
+(ABDIFATAH IBRAHIM) Tj
+0 -30 Td
+/F1 16 Tf
+(Full-Stack Developer & Tech Enthusiast) Tj
+0 -40 Td
+/F1 12 Tf
+(Email: ibrabdi109@gmail.com) Tj
+0 -20 Td
+(Phone: +254798272697) Tj
+0 -20 Td
+(Location: Nairobi, Kenya) Tj
+0 -20 Td
+(LinkedIn: Abdifatah Ibrahim) Tj
+0 -20 Td
+(GitHub: @jjibrah) Tj
+0 -50 Td
+/F1 18 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -30 Td
+/F1 12 Tf
+(Passionate Full-Stack Developer with expertise in modern web technologies,) Tj
+0 -15 Td
+(mobile app development, and AI/ML solutions. Proven track record of delivering) Tj
+0 -15 Td
+(comprehensive software solutions with focus on user experience and performance.) Tj
+0 -50 Td
+/F1 18 Tf
+(TECHNICAL SKILLS) Tj
+0 -30 Td
+/F1 12 Tf
+(Frontend Development:) Tj
+0 -15 Td
+(HTML5, CSS3, JavaScript (ES6+), React, Vue.js, Bootstrap, Tailwind CSS) Tj
+0 -30 Td
+(Backend Development:) Tj
+0 -15 Td
+(Python, Node.js, Express.js, Django, Flask, RESTful APIs) Tj
+0 -30 Td
+(Database Management:) Tj
+0 -15 Td
+(MongoDB, PostgreSQL, MySQL, Firebase) Tj
+0 -30 Td
+(Mobile Development:) Tj
+0 -15 Td
+(Android (Kotlin), React Native, Flutter, Firebase) Tj
+0 -30 Td
+(AI/ML Technologies:) Tj
+0 -15 Td
+(TensorFlow, OpenCV, Pandas, NumPy, Scikit-learn) Tj
+0 -30 Td
+(DevOps & Tools:) Tj
+0 -15 Td
+(Git, GitHub, Docker, AWS, Netlify, Vercel) Tj
+0 -50 Td
+/F1 18 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -30 Td
+/F1 14 Tf
+(Full-Stack Developer | Freelance) Tj
+0 -20 Td
+/F1 12 Tf
+(2022 - Present) Tj
+0 -20 Td
+(• Developed comprehensive delivery management system with real-time tracking) Tj
+0 -15 Td
+(• Built cross-platform mobile applications for iOS and Android) Tj
+0 -15 Td
+(• Implemented AI/ML solutions for image recognition with 95%+ accuracy) Tj
+0 -15 Td
+(• Created responsive web applications with modern UI/UX design) Tj
+0 -15 Td
+(• Collaborated with clients to deliver custom software solutions) Tj
+0 -50 Td
+/F1 18 Tf
+(KEY PROJECTS) Tj
+0 -30 Td
+/F1 14 Tf
+(Amanah Delivery Platform) Tj
+0 -20 Td
+/F1 12 Tf
+(Full-stack delivery management system with real-time tracking, payment) Tj
+0 -15 Td
+(integration, and mobile app for drivers and customers.) Tj
+0 -30 Td
+/F1 14 Tf
+(AirHome App) Tj
+0 -20 Td
+/F1 12 Tf
+(Cross-platform accommodation booking application with advanced search) Tj
+0 -15 Td
+(filters, booking management, and payment processing.) Tj
+0 -30 Td
+/F1 14 Tf
+(AI Image Recognition System) Tj
+0 -20 Td
+/F1 12 Tf
+(Computer vision system using TensorFlow and OpenCV for object detection) Tj
+0 -15 Td
+(and classification with machine learning algorithms.) Tj
+0 -50 Td
+/F1 18 Tf
+(EDUCATION) Tj
+0 -30 Td
+/F1 14 Tf
+(Software Development & Engineering) Tj
+0 -20 Td
+/F1 12 Tf
+(Focus on Full-Stack Development, Mobile App Development, and AI/ML) Tj
+0 -50 Td
+/F1 18 Tf
+(CERTIFICATIONS & ACHIEVEMENTS) Tj
+0 -30 Td
+/F1 12 Tf
+(• Certified in Modern Web Development Technologies) Tj
+0 -15 Td
+(• Mobile App Development Specialist) Tj
+0 -15 Td
+(• AI/ML Implementation Expert) Tj
+0 -15 Td
+(• Open Source Contributor) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002340 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2417
+%%EOF

@@ -153,44 +153,13 @@
         });
         // Resume Download Function
         function downloadResume() {
-            // Create a simple resume content (you can replace this with actual PDF generation)
-            const resumeContent = `
-                Abdifatah Ibrahim
-                Full-Stack Developer & Tech Enthusiast
-                
-                Email: ibrabdi109@gmail.com
-                Phone: +254798272697
-                Location: Nairobi, Kenya
-                
-                TECHNICAL SKILLS:
-                Frontend: HTML5, CSS3, JavaScript, React
-                Backend: Python, Node.js, MongoDB, PostgreSQL
-                Mobile: Android (Kotlin), Firebase, React Native
-                AI/ML: TensorFlow, OpenCV, Pandas
-                
-                EXPERIENCE:
-                - Developed comprehensive delivery management system
-                - Built cross-platform mobile applications
-                - Implemented AI/ML solutions for image recognition
-                
-                EDUCATION:
-                - Software Development & Engineering
-                
-                PROJECTS:
-                - Amanah Delivery: Full-stack delivery management platform
-                - AirHome App: Cross-platform accommodation booking app
-                - AI Image Recognition: Computer vision system with 95%+ accuracy
-            `;
-            
-            const blob = new Blob([resumeContent], { type: 'text/plain' });
-            const url = window.URL.createObjectURL(blob);
+            // Create a link to download the PDF CV
             const a = document.createElement('a');
-            a.href = url;
-            a.download = 'Abdifatah_Ibrahim_Resume.txt';
+            a.href = 'AbdifatahIbrahimAbdi_CV.pdf';
+            a.download = 'Abdifatah_Ibrahim_CV.pdf';
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            window.URL.revokeObjectURL(url);
         }
 
 
